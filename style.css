@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    color: white;
+    font-size: 20px;
+}
+
+.h {
+    padding: 20px 0;
+}
+
+/* header --------------------------------------------------- */
+
+.logo {
+    font-size: 5em;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+header {
+    background-image: url(./pictures/header_background.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(70, 69, 69);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1, header p {
+    width: 350px;
+    text-align: center;
+}
+
+header p {
+    line-height: 1.5em;
+}
+
+/* main --------------------------------------------- */
+
+.center {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.wrapper_list {
+    background-color: rgb(15, 14, 15);
+    width: 100%;
+    height: 400px;
+}
+
+.list_logo {
+    font-size: 2em;
+}
+
+.list {
+    padding: 100px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list div {
+    width: 30%;
+}
+
+.info {
+    color: rgb(70, 69, 69);
+    display: flex;
+}
+
+.info_picture {
+    padding: 20px 100px;
+}
+
+/* footer ------------------------ */
+
+footer {
+    background-color: rgb(70, 69, 69);
+    height: 100px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 40px;
+}
